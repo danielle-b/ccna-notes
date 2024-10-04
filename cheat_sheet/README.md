@@ -26,7 +26,7 @@
 |              | `<text>?`                                                     | Show possible commands for the current mode starting with <text> |
 |              | `<command> ?`                                                 | Show possible options to complete the <partial_command> command with |
 |              | `no <command>`                                                | Disable a feature/function or reverse the action of <command> |
-|              | `do <command>`                                                | Executes a privileged-exec <command> from global configuration mode |
+|              | `do <command>`                                                | Executes a privileged-exec command from global configuration mode |
 | #            | `configure terminal`                                          | Enter global configuration mode |
 | #            | `show running-config`                                         | Show current config |
 | #            | `show startup-config`                                         | Show startup config |
