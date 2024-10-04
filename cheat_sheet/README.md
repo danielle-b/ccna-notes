@@ -13,9 +13,9 @@
 
 | Mode      | Command                       | Description |
 | ---       | ---                           | --- |
-| (config)# | `enable password <password>`  | Set plain text password to <password> |
+| (config)# | `enable password <password>`  | Sets plain text password |
 | (config)# | `service password-encryption` | Encrypts the enable password(and other passwords); Uses Cisco's Type 7 encoding |
-| (config)# | `enable secret <password>`    | Set MD5 hashed password to <password> and disable old passwords |
+| (config)# | `enable secret <password>`    | Configures a password that is automatically encrypted. Uses MD5 to hash the specified password |
 
 ## Basics
 
