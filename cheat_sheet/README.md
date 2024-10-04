@@ -21,13 +21,13 @@
 
 | Mode         | Command                                                       | Description |
 | ---          | ---                                                           | --- |
-| >            | `enable`                                                      | Change to Privileged EXEC mode |
+| >            | `enable`                                                      | Enter Privileged EXEC mode |
 |              | `exit`                                                        | Exit current mode |
 |              | `<text>?`                                                     | Show possible commands for the current mode starting with <text> |
 |              | `<command> ?`                                                 | Show possible options to complete the <partial_command> command with |
 |              | `no <command>`                                                | Disable a feature/function or reverse the action of <command> |
 |              | `do <command>`                                                | Run <command> in Privileged EXEC mode |
-| #            | `configure terminal`                                          | Enter Privilleged EXEC mode |
+| #            | `configure terminal`                                          | Enter global configuration mode |
 | #            | `show running-config`                                         | Show current config |
 | #            | `show startup-config`                                         | Show startup config |
 | #            | `write`                                                       | Save running-config as startup-config |
