@@ -29,7 +29,7 @@ LANs use L2 layer frames.
     * `SFD` (Start Frame Delimiter)
     * `Destination`: L2 address to which the frame is being sent
     * `Source`: L2 address of the device that sent the frame
-    * `Type` (or Length): indicates the L3 protocol used in the encapsulated `packet` (almsot always IPv4 or IPv6)
+    * `Type` (or Length): indicates the L3 protocol used in the encapsulated `packet` (almost always IPv4 or IPv6)
 
 * `TRAILER`
     * 4 bytes
